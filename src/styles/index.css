@@ -10,3 +10,38 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+}
+
+
+.traficc-light{
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.luz{
+    width: 5rem;
+    height: 5rem;
+    background-color: darkgrey;
+    border-radius: 50%;
+}
+
+.luz.red.active{
+    background-color: red;
+}
+
+.luz.yellow.active{
+    background-color: yellow;
+}
+
+.luz.green.active{
+    background-color: green;
+}
